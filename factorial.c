@@ -17,7 +17,7 @@ int main() {
 
 	for (int i = 0; i < 13; ++i)
 	{
-		printf("%2d! = %d\n", factorial(i));
+		printf("%2d! = %d\n", i, factorial(i));
 	}
 
 }
